@@ -1,0 +1,74 @@
+#main {
+	font-family: 'Poppins', sans-serif;
+}
+.header {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  color: #fff;
+  background-color: #7F00FF;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, rgba(100,43,115, 0.1), rgba(198,66,110, 0.1)),  url("../img/Mandela-superJumbo.jpg") no-repeat bottom center fixed;  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, rgba(100,43,115, 0.1), rgba(198,66,110, 0.1)),  url("../img/Mandela-superJumbo.jpg") no-repeat bottom center fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	background-position: center;
+	background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.title {
+	letter-spacing: 5px;
+}
+.mid-name {
+	color: rgba(198,66,110, 0.9);
+}
+/*Extra small devices (portrait phones, less than 576px)*/
+/*No media query for `xs` since this is the default in Bootstrap*/
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+	.title {
+		font-size: 3vw;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	.title {
+		font-size: 5vw;
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	.title {
+		font-size: 4.67869vw;
+	}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	.title {
+		font-size: 5.3687vw;
+	}
+}
+
+.trans-04 {
+  -webkit-transition: all 0.4s!important;
+    -o-transition: all 0.4s!important;
+    -moz-transition: all 0.4s!important;
+    transition: all 0.4s!important;
+}
+.trans-05 {
+  -webkit-transition: all 0.5s!important;
+    -o-transition: all 0.5s!important;
+    -moz-transition: all 0.5s!important;
+    transition: all 0.5s!important;
+}
+.trans-06 {
+  -webkit-transition: all 0.6s!important;
+    -o-transition: all 0.6s!important;
+    -moz-transition: all 0.6s!important;
+    transition: all 0.6s!important;
+}
