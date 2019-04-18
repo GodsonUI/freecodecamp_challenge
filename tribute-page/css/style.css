@@ -3,13 +3,13 @@
 }
 .header {
   position: relative;
-  width: 100vw;
+  /*width: 100vw;*/
   height: 100vh;
   text-align: center;
   color: #fff;
   background-color: #7F00FF;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, rgba(100,43,115, 0.1), rgba(198,66,110, 0.1)),  url("../img/Mandela-superJumbo.jpg") no-repeat bottom center fixed;  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, rgba(100,43,115, 0.1), rgba(198,66,110, 0.1)),  url("../img/Mandela-superJumbo.jpg") no-repeat bottom center fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: -webkit-linear-gradient(to right, rgba(100,43,115, 0.1), rgba(198,66,110, 0.1)),  url("../img/Mandela-superJumbo.jpg") no-repeat bottom center;  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, rgba(100,43,115, 0.1), rgba(198,66,110, 0.1)),  url("../img/Mandela-superJumbo.jpg") no-repeat bottom center; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 	background-position: center;
 	background-size: cover;
@@ -23,8 +23,10 @@
 .mid-name {
 	color: rgba(198,66,110, 0.9);
 }
-/*Extra small devices (portrait phones, less than 576px)*/
-/*No media query for `xs` since this is the default in Bootstrap*/
+
+.para {
+	line-height: 2.0;
+}
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
@@ -45,6 +47,7 @@
 	.title {
 		font-size: 4.67869vw;
 	}
+
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
