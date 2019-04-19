@@ -27,7 +27,20 @@
 .para {
 	line-height: 2.0;
 }
-
+#img-div img {
+	filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+  max-width: 100%;
+	display: block;
+	height: auto;
+	margin: auto;
+}
+#tribute-info {
+	background-color: #eee;
+}
+.info-bg {
+	background-color: rgba(198,66,110, 0.9);
+}
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
 	.title {
